@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+noscript{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+noscript *{
+  background-color: black;
+}
+
+form{
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

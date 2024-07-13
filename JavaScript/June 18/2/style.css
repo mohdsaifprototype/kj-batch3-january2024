@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+body{
+  /* color: white;
+  background: #000; */
+}
+
+header {
+  height: 200px;
+  border: 4px solid red;
+}
+section{
+  position: relative;
+}
+
+section::before{
+  content: "";
+  background:  url("https://picsum.photos/1920/1080") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+  opacity: 30%;
+}

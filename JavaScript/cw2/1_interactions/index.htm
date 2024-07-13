@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactions | JS</title>
+</head>
+
+<body>
+  <h1>look into the console</h1>
+  <script>
+    /* let age = prompt( "How old are you?"); // user input for their age
+    console.log(`Your  age is ${age}`); // logs to the console with a string that includes the users input */
+
+    // let opt = prompt("Select any number between 1 - 10!", 5);
+    // console.log(opt);
+
+    // let option = confirm("Do you want to proceed?");
+    // if (option == true) {
+    //   console.log('You clicked: OK');
+    // } else {
+    //   console.log('You clicked Cancel');
+    // }
+
+    let num1 = prompt("Enter the value of num1");
+    let num2 = prompt("Enter the value of num2");
+
+    console.log(`num1 =`,num1)
+    console.log(`num2 =`,num2)
+
+    console.log(`${num1} + ${num2} =`, num1 + num2);
+    console.log(`${num1} + ${num2} =`, +num1 + +num2);
+
+    // Explicit type conversion: String to number
+    console.log(`${num1} + ${num2} =`, Number(num1) + Number(num2));
+    // Implicit type conversion: String to number
+    console.log(`${num1} - ${num2} =`, num1 - num2);
+    console.log(`${num1} * ${num2} =`, num1 * num2);
+    console.log(`${num1} / ${num2} =`, num1 / num2);
+    console.log(`${num1} % ${num2} =`, num1 % num2);
+    console.log(`${num1} ** ${num2} =`, num1 ** num2);
+  </script>
+</body>
+
+</html>

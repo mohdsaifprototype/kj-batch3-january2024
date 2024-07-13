@@ -1,0 +1,34 @@
+.card{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1{
+  grid-area: abc1;
+}
+.card2{
+  grid-area: abc2;
+}
+.card3{
+  grid-area: abc3;
+}
+.card4{
+  grid-area: abc4;
+}
+.card5{
+  grid-area: abc5;
+}
+.card6{
+  grid-area: abc6;
+}
+
+.container{
+  display: grid;
+  grid-template-areas: 'abc1 abc2 abc3 abc4'
+  'abc5 abc5 abc6 abc6';
+  justify-content: center;
+  gap: 1rem;
+}

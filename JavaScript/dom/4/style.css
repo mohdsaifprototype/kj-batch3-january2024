@@ -1,0 +1,28 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  background: #84edfb;
+}
+
+.container {
+  border: 5px solid red;
+}
+
+.items {
+  border: 2px solid green;
+  background: #adb;
+  margin: 5px;
+  padding: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.big-font{
+  font-size: xx-large;
+}
